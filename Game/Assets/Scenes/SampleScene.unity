@@ -326,8 +326,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 07bc3f994fc12e949ac2f8885b9b6899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
   roadLine: 0
   positionX: 3.5
+--- !u!95 &1136313229
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136313226}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 93e7507551917bb4b979d9a0ff832cbf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1231343421
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -387,6 +409,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35216c20452459d49b5e5b7a85bc85be, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1136313227}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 35216c20452459d49b5e5b7a85bc85be, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1136313229}
   m_SourcePrefab: {fileID: 100100000, guid: 35216c20452459d49b5e5b7a85bc85be, type: 3}
 --- !u!1001 &1235509271512240265
 PrefabInstance:
