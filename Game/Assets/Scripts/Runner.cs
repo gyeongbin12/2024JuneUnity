@@ -11,6 +11,7 @@ public enum RoadLine
 
 public class Runner : MonoBehaviour
 {
+    
     [SerializeField] Animator animator;
 
     [SerializeField] RoadLine roadLine;
@@ -18,8 +19,7 @@ public class Runner : MonoBehaviour
 
     private void OnEnable()
     {
-        InputManager.Instance.keyAction += OnKeyUpdate;
-    }
+        InputManager.Instance.keyAction += OnKeyUpdate;    }
 
     void Start()
     {
